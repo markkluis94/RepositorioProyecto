@@ -1,0 +1,298 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="paquete.example.the_factory_hka_definitivo.Actividad_Registro_Usuario" >
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_x="125dp"
+        android:layout_y="10dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Nombre"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfNombre"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_x="190dp"
+        android:layout_y="05dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+
+        <requestFocus />
+    </EditText>
+    
+     <TextView
+        android:id="@+id/txCodigo"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_x="01dp"
+        android:layout_y="10dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Codigo"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+      
+     <EditText
+        android:id="@+id/tfCodigo"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_x="60dp"
+        android:layout_y="05dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="50dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Apellido"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfApellido"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        android:layout_x="100dp"
+        android:layout_y="45dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+
+    <RadioButton
+        android:id="@+id/rbtSexoMasculino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="90dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Masculino"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+    
+    <RadioButton
+        android:id="@+id/rbtSexoFemenino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="90dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Femenino"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+    
+     <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="130dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Correo"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfCorreo"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        android:layout_x="100dp"
+        android:layout_y="125dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="170dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Telefono"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfTelefono"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        android:layout_x="100dp"
+        android:layout_y="165dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="210dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Usuario"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfUsuario"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        android:layout_x="100dp"
+        android:layout_y="205dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+    
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="08dp"
+        android:layout_y="250dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/abc_searchview_description_voice"
+        android:text="Password"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/tfPassword"
+        android:layout_width="130dp"
+        android:layout_height="32dp"
+        android:layout_x="100dp"
+        android:layout_y="245dp"
+        android:ems="10"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        android:width="@dimen/abc_action_bar_default_height" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_x="08dp"
+        android:layout_y="290dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:hint="@string/abc_searchview_description_submit"
+        android:text="Guardar"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:visibility="visible" />
+    
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:layout_x="190dp"
+        android:layout_y="290dp"
+        android:fontFamily="@string/abc_searchview_description_voice"
+        android:hint="@string/abc_searchview_description_submit"
+        android:text="Regresar"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+</AbsoluteLayout>

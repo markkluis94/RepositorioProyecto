@@ -1,0 +1,101 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="paquete.example.the_factory_hka_definitivo.Actividad_Sesion" >
+
+    <TextView
+        android:id="@+id/txtUsuarioLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="40dp"
+        android:contentDescription="Etiqueta resumen de usuario secion"
+        android:gravity="center"
+        android:text="Usuario"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/tfUsuario"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_x="150dp"
+        android:layout_y="35dp"
+        android:ems="10"
+        android:textSize="@dimen/abc_action_bar_subtitle_top_margin"
+        android:textStyle="bold"
+        android:typeface="serif" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtPassw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="90dp"
+        android:gravity="center"
+        android:text="Password"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/tfPassword"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_x="150dp"
+        android:layout_y="85dp"
+        android:ems="10"
+        android:textSize="@dimen/abc_action_bar_subtitle_top_margin"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnEntrarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_x="20dp"
+        android:layout_y="170dp"
+        android:contentDescription="Boton para entrar a la aplicacion"
+        android:gravity="center_vertical|center_horizontal|bottom"
+        android:text="Entrar"
+        android:textSize="@dimen/abc_action_bar_title_text_size"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/txtRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="210dp"
+        android:contentDescription="Registro a Nuevos Usuarios"
+        android:gravity="center"
+        android:text="Registrar Nuevo Usuario"
+        android:textSize="@dimen/abc_action_bar_subtitle_text_size"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSalirAplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="180dp"
+        android:layout_y="170dp"
+        android:contentDescription="Boton para entrar a la aplicacion"
+        android:gravity="center_vertical|center_horizontal|bottom"
+        android:text="Salir"
+        android:textSize="@dimen/abc_action_bar_title_text_size"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+</AbsoluteLayout>
